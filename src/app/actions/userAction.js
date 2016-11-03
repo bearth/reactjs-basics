@@ -1,3 +1,5 @@
+import { SET_NAME, SET_AGE } from '../actions';
+
 export function setName(name) {
     return {
         type: "SET_NAME",

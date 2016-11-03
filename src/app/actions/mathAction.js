@@ -1,13 +1,15 @@
+import { ADD, SUBTRACT } from '../actions';
+
 export function addNumber(number) {
     return {
-        type: "ADD",
+        type: ADD,
         payload: number
     };
 }
 
 export function subtractNumber(number) {
     return {
-        type: "SUBTRACT",
+        type: SUBTRACT,
         payload: number
     };
 }

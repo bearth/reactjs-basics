@@ -1,4 +1,4 @@
-import {createStore, combineReducers, applyMiddleware, compose} from "redux";
+import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import logger from "redux-logger";
 
 import math from "./reducers/mathReducer";
